@@ -1,0 +1,14 @@
+{
+  "seed": 7,
+  "n_flights": 20,
+  "n_samples_total": 134277,
+  "repeats": 3,
+  "best_batch_time_s": 0.023719707999999978,
+  "samples_per_sec": 5660988.744043566,
+  "mean_flight_scan_ms": 1.2344542499999998,
+  "max_flight_scan_ms": 1.4337919999999893,
+  "mean_flight_samples": 6713.85,
+  "machine": "arm64",
+  "python": "3.9.6",
+  "note": "single-threaded, pure Python state machine with numpy predicates"
+}

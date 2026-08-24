@@ -1,0 +1,116 @@
+{
+  "seed": 42,
+  "n_flights": 200,
+  "n_clean_flights": 50,
+  "n_samples": 1323540,
+  "n_labeled_episodes": 259,
+  "n_marginal_episodes": 51,
+  "match_slack_s": 5.0,
+  "per_type": {
+    "overspeed_vmo": {
+      "tp": 50,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency": {
+        "n": 50,
+        "mean_s": 1.54,
+        "median_s": 1.5,
+        "p95_s": 1.5,
+        "max_s": 3.5
+      }
+    },
+    "overspeed_mmo": {
+      "tp": 44,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency": {
+        "n": 44,
+        "mean_s": 1.5,
+        "median_s": 1.5,
+        "p95_s": 1.5,
+        "max_s": 1.5
+      }
+    },
+    "high_sink_low_alt": {
+      "tp": 43,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency": {
+        "n": 43,
+        "mean_s": 1.5,
+        "median_s": 1.5,
+        "p95_s": 1.5,
+        "max_s": 1.5
+      }
+    },
+    "pitch_limit": {
+      "tp": 42,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency": {
+        "n": 42,
+        "mean_s": 1.5476190476190477,
+        "median_s": 1.5,
+        "p95_s": 1.5,
+        "max_s": 3.0
+      }
+    },
+    "bank_limit": {
+      "tp": 35,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency": {
+        "n": 35,
+        "mean_s": 1.5,
+        "median_s": 1.5,
+        "p95_s": 1.5,
+        "max_s": 1.5
+      }
+    },
+    "unstable_approach": {
+      "tp": 44,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9777777777777777,
+      "f1": 0.9887640449438202,
+      "latency": {
+        "n": 44,
+        "mean_s": 1.5340909090909092,
+        "median_s": 1.5,
+        "p95_s": 1.5,
+        "max_s": 3.0
+      }
+    }
+  },
+  "overall": {
+    "tp": 258,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.9961389961389961,
+    "f1": 0.9980657640232108,
+    "latency": {
+      "n": 258,
+      "mean_s": 1.5213178294573644,
+      "median_s": 1.5,
+      "p95_s": 1.5,
+      "max_s": 3.5
+    }
+  }
+}

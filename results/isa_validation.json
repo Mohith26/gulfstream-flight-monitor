@@ -1,0 +1,139 @@
+{
+  "n_points": 13,
+  "max_abs_T_err_K": 0.05000000000001137,
+  "max_abs_p_rel_err": 0.00014926420048017985,
+  "max_abs_rho_rel_err": 0.0003941453259811989,
+  "all_within_tolerance": true,
+  "points": [
+    {
+      "source": "ISO2533/ICAO7488 layer table",
+      "altitude_m": 0.0,
+      "altitude_kind": "geopotential",
+      "T_err_K": 0.0,
+      "p_rel_err": 0.0,
+      "rho_rel_err": 1.479533701902775e-08,
+      "tol_T_K": 0.05,
+      "rel_tol": 0.0005
+    },
+    {
+      "source": "ISO2533/ICAO7488 layer table",
+      "altitude_m": 11000.0,
+      "altitude_kind": "geopotential",
+      "T_err_K": -2.842170943040401e-14,
+      "p_rel_err": 1.7716069190899084e-06,
+      "rho_rel_err": 4.849711899800385e-05,
+      "tol_T_K": 0.05,
+      "rel_tol": 0.0005
+    },
+    {
+      "source": "ISO2533/ICAO7488 layer table",
+      "altitude_m": 20000.0,
+      "altitude_kind": "geopotential",
+      "T_err_K": -2.842170943040401e-14,
+      "p_rel_err": -4.123494302274464e-06,
+      "rho_rel_err": 0.0003941453259811989,
+      "tol_T_K": 0.05,
+      "rel_tol": 0.002
+    },
+    {
+      "source": "EngineeringToolBox ISA table",
+      "altitude_m": 1000.0,
+      "altitude_kind": "geometric",
+      "T_err_K": -0.04897762830529473,
+      "p_rel_err": -4.141519423270089e-05,
+      "rho_rel_err": -2.5030685609922485e-05,
+      "tol_T_K": 0.1,
+      "rel_tol": 0.002
+    },
+    {
+      "source": "EngineeringToolBox ISA table",
+      "altitude_m": 2000.0,
+      "altitude_kind": "geometric",
+      "T_err_K": -0.04591115634701737,
+      "p_rel_err": 1.774928917059142e-05,
+      "rho_rel_err": -2.855840367171545e-05,
+      "tol_T_K": 0.1,
+      "rel_tol": 0.002
+    },
+    {
+      "source": "EngineeringToolBox ISA table",
+      "altitude_m": 3000.0,
+      "altitude_kind": "geometric",
+      "T_err_K": -0.040801548358842865,
+      "p_rel_err": 1.631585960709579e-05,
+      "rho_rel_err": -6.945291198833276e-05,
+      "tol_T_K": 0.1,
+      "rel_tol": 0.002
+    },
+    {
+      "source": "EngineeringToolBox ISA table",
+      "altitude_m": 5000.0,
+      "altitude_kind": "geometric",
+      "T_err_K": -0.02445677819650882,
+      "p_rel_err": -3.215101646293027e-05,
+      "rho_rel_err": -5.619594939975039e-05,
+      "tol_T_K": 0.1,
+      "rel_tol": 0.002
+    },
+    {
+      "source": "EngineeringToolBox ISA table",
+      "altitude_m": 8000.0,
+      "altitude_kind": "geometric",
+      "T_err_K": 0.01535982626853638,
+      "p_rel_err": 4.494036974661806e-05,
+      "rho_rel_err": 3.0444523572568522e-05,
+      "tol_T_K": 0.1,
+      "rel_tol": 0.002
+    },
+    {
+      "source": "EngineeringToolBox ISA table",
+      "altitude_m": 10000.0,
+      "altitude_kind": "geometric",
+      "T_err_K": -0.04790735202143992,
+      "p_rel_err": -4.787818778702717e-06,
+      "rho_rel_err": -0.00012010447681932102,
+      "tol_T_K": 0.1,
+      "rel_tol": 0.002
+    },
+    {
+      "source": "EngineeringToolBox ISA table",
+      "altitude_m": 12000.0,
+      "altitude_kind": "geometric",
+      "T_err_K": -0.05000000000001137,
+      "p_rel_err": -2.9592271500977283e-05,
+      "rho_rel_err": 0.00016995263678745124,
+      "tol_T_K": 0.1,
+      "rel_tol": 0.002
+    },
+    {
+      "source": "EngineeringToolBox ISA table",
+      "altitude_m": 15000.0,
+      "altitude_kind": "geometric",
+      "T_err_K": -0.05000000000001137,
+      "p_rel_err": 0.00014926420048017985,
+      "rho_rel_err": -0.00010323530455334506,
+      "tol_T_K": 0.1,
+      "rel_tol": 0.002
+    },
+    {
+      "source": "EngineeringToolBox ISA table",
+      "altitude_m": 18000.0,
+      "altitude_kind": "geometric",
+      "T_err_K": -0.05000000000001137,
+      "p_rel_err": 2.9170447187239106e-05,
+      "rho_rel_err": 3.609782229969204e-05,
+      "tol_T_K": 0.1,
+      "rel_tol": 0.002
+    },
+    {
+      "source": "EngineeringToolBox ISA table",
+      "altitude_m": 20000.0,
+      "altitude_kind": "geometric",
+      "T_err_K": -0.05000000000001137,
+      "p_rel_err": 5.436310612559098e-05,
+      "rho_rel_err": -7.921809386440802e-06,
+      "tol_T_K": 0.1,
+      "rel_tol": 0.002
+    }
+  ]
+}
